@@ -1,0 +1,228 @@
+# depslib dependency file v1.0
+1492589183 source:/home/mark/code blocks/CompilerPhase2_1/src/LexicalAnalyzer.cpp
+	"LexicalAnalyzer.h"
+
+1492589183 /home/mark/code blocks/CompilerPhase2_1/include/LexicalAnalyzer.h
+
+1492589098 source:/home/mark/code blocks/CompilerPhase2_1/src/OutputProducer.cpp
+	"OutputProducer.h"
+
+1492589098 /home/mark/code blocks/CompilerPhase2_1/include/OutputProducer.h
+
+1492715404 source:/home/mark/code blocks/CompilerPhase2_1/src/Parser.cpp
+	"Parser.h"
+
+1492710702 /home/mark/code blocks/CompilerPhase2_1/include/Parser.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+
+1492674172 source:/home/mark/code blocks/CompilerPhase2_1/main.cpp
+	<iostream>
+	<vector>
+	"Parser.h"
+
+1492674172 source:/home/duck/codeblocks/CompilerPhase2_1/main.cpp
+	<iostream>
+	<vector>
+	"Parser.h"
+
+1492816746 /home/duck/codeblocks/CompilerPhase2_1/include/Parser.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1492589184 source:/home/duck/codeblocks/CompilerPhase2_1/src/LexicalAnalyzer.cpp
+	"LexicalAnalyzer.h"
+
+1492589184 /home/duck/codeblocks/CompilerPhase2_1/include/LexicalAnalyzer.h
+
+1492589098 source:/home/duck/codeblocks/CompilerPhase2_1/src/OutputProducer.cpp
+	"OutputProducer.h"
+
+1492589098 /home/duck/codeblocks/CompilerPhase2_1/include/OutputProducer.h
+
+1492820201 source:/home/duck/codeblocks/CompilerPhase2_1/src/Parser.cpp
+	"Parser.h"
+
+1492861625 source:/home/mark/Desktop/CompilerPhase2_1 (2)/main.cpp
+	<iostream>
+	<vector>
+	"Parser.h"
+
+1492867173 /home/mark/Desktop/CompilerPhase2_1 (2)/include/Parser.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1492589184 source:/home/mark/Desktop/CompilerPhase2_1 (2)/src/LexicalAnalyzer.cpp
+	"LexicalAnalyzer.h"
+
+1492589184 /home/mark/Desktop/CompilerPhase2_1 (2)/include/LexicalAnalyzer.h
+
+1492589098 source:/home/mark/Desktop/CompilerPhase2_1 (2)/src/OutputProducer.cpp
+	"OutputProducer.h"
+
+1492589098 /home/mark/Desktop/CompilerPhase2_1 (2)/include/OutputProducer.h
+
+1492872048 source:/home/mark/Desktop/CompilerPhase2_1 (2)/src/Parser.cpp
+	"Parser.h"
+	"main.cpp"
+
+1492861704 /home/mark/Desktop/CompilerPhase2_1 (2)/src/main.cpp
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+
+1492865252 source:/home/aliaa/Documents/CompilerPhase2_1 (2)/main.cpp
+	<iostream>
+	<vector>
+	"Parser.h"
+
+1492865252 /home/aliaa/Documents/CompilerPhase2_1 (2)/include/Parser.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1492865252 source:/home/aliaa/Documents/CompilerPhase2_1 (2)/src/LexicalAnalyzer.cpp
+	"LexicalAnalyzer.h"
+
+1492865252 /home/aliaa/Documents/CompilerPhase2_1 (2)/include/LexicalAnalyzer.h
+
+1492865252 source:/home/aliaa/Documents/CompilerPhase2_1 (2)/src/OutputProducer.cpp
+	"OutputProducer.h"
+
+1492865252 /home/aliaa/Documents/CompilerPhase2_1 (2)/include/OutputProducer.h
+
+1493027530 source:/home/aliaa/Documents/CompilerPhase2_1 (2)/src/Parser.cpp
+	"Parser.h"
+	"Bonus.h"
+	"main.cpp"
+
+1492865252 /home/aliaa/Documents/CompilerPhase2_1 (2)/src/main.cpp
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+
+1493221276 source:/home/aliaa/Documents/CompilerPhase2_1 (2)/src/Bonus.cpp
+	"Bonus.h"
+
+1493220967 /home/aliaa/Documents/CompilerPhase2_1 (2)/include/Bonus.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1492865252 source:/home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/main.cpp
+	<iostream>
+	<vector>
+	"Parser.h"
+
+1492865252 /home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/include/Parser.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1493221276 source:/home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/src/Bonus.cpp
+	"Bonus.h"
+
+1493220967 /home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/include/Bonus.h
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+	<algorithm>
+
+1492865252 source:/home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/src/LexicalAnalyzer.cpp
+	"LexicalAnalyzer.h"
+
+1492865252 /home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/include/LexicalAnalyzer.h
+
+1492865252 source:/home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/src/OutputProducer.cpp
+	"OutputProducer.h"
+
+1492865252 /home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/include/OutputProducer.h
+
+1493221552 source:/home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/src/Parser.cpp
+	"Parser.h"
+	"Bonus.h"
+	"main.cpp"
+
+1492865252 /home/aliaa/Documents/phase 2 /CompilerPhase2_1 (2)/src/main.cpp
+	<iostream>
+	<stack>
+	<stdio.h>
+	<string.h>
+	<map>
+	<list>
+	<vector>
+	<fstream>
+	<sstream>
+	<string>
+

@@ -1,0 +1,99 @@
+METHOD_BODY: 
+0 $
+
+STATEMENT_LIST: 
+0 $
+
+STATEMENT_LIST_dash: 
+0 $
+
+STATEMENT: 
+0 $
+1 float
+2 id
+3 if
+4 int
+5 while
+6 }
+
+DECLARATION: 
+0 $
+1 float
+2 id
+3 if
+4 int
+5 while
+6 }
+
+PRIMITIVE_TYPE: 
+0 id
+
+IF: 
+0 $
+1 float
+2 id
+3 if
+4 int
+5 while
+6 }
+
+WHILE: 
+0 $
+1 float
+2 id
+3 if
+4 int
+5 while
+6 }
+
+ASSIGNMENT: 
+0 $
+1 float
+2 id
+3 if
+4 int
+5 while
+6 }
+
+EXPRESSION: 
+0 )
+1 ;
+
+EXPRESSION_dash: 
+0 )
+1 ;
+
+SIMPLE_EXPRESSION: 
+0 )
+1 ;
+2 relop
+
+SIMPLE_EXPRESSION_dash: 
+0 )
+1 ;
+2 relop
+
+TERM: 
+0 )
+1 ;
+2 addop
+3 relop
+
+TERM_dash: 
+0 )
+1 ;
+2 addop
+3 relop
+
+FACTOR: 
+0 )
+1 ;
+2 addop
+3 mulop
+4 relop
+
+SIGN: 
+0 (
+1 id
+2 num
+

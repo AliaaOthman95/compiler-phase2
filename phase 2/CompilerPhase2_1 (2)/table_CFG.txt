@@ -1,0 +1,309 @@
+[ ASSIGNMENT ,$ ]
+sync 
+
+[ ASSIGNMENT ,float ]
+sync 
+
+[ ASSIGNMENT ,id ]
+id assign EXPRESSION ; 
+
+[ ASSIGNMENT ,if ]
+sync 
+
+[ ASSIGNMENT ,int ]
+sync 
+
+[ ASSIGNMENT ,while ]
+sync 
+
+[ ASSIGNMENT ,} ]
+sync 
+
+[ DECLARATION ,$ ]
+sync 
+
+[ DECLARATION ,float ]
+PRIMITIVE_TYPE id ; 
+
+[ DECLARATION ,id ]
+sync 
+
+[ DECLARATION ,if ]
+sync 
+
+[ DECLARATION ,int ]
+PRIMITIVE_TYPE id ; 
+
+[ DECLARATION ,while ]
+sync 
+
+[ DECLARATION ,} ]
+sync 
+
+[ EXPRESSION ,( ]
+SIMPLE_EXPRESSION EXPRESSION_dash 
+
+[ EXPRESSION ,) ]
+sync 
+
+[ EXPRESSION ,+ ]
+SIMPLE_EXPRESSION EXPRESSION_dash 
+
+[ EXPRESSION ,- ]
+SIMPLE_EXPRESSION EXPRESSION_dash 
+
+[ EXPRESSION ,; ]
+sync 
+
+[ EXPRESSION ,id ]
+SIMPLE_EXPRESSION EXPRESSION_dash 
+
+[ EXPRESSION ,num ]
+SIMPLE_EXPRESSION EXPRESSION_dash 
+
+[ EXPRESSION_dash ,) ]
+lamda 
+
+[ EXPRESSION_dash ,; ]
+lamda 
+
+[ EXPRESSION_dash ,relop ]
+relop SIMPLE_EXPRESSION 
+
+[ FACTOR ,( ]
+( EXPRESSION ) 
+
+[ FACTOR ,) ]
+sync 
+
+[ FACTOR ,; ]
+sync 
+
+[ FACTOR ,addop ]
+sync 
+
+[ FACTOR ,id ]
+id 
+
+[ FACTOR ,mulop ]
+sync 
+
+[ FACTOR ,num ]
+num 
+
+[ FACTOR ,relop ]
+sync 
+
+[ IF ,$ ]
+sync 
+
+[ IF ,float ]
+sync 
+
+[ IF ,id ]
+sync 
+
+[ IF ,if ]
+if ( EXPRESSION ) { STATEMENT } else { STATEMENT } 
+
+[ IF ,int ]
+sync 
+
+[ IF ,while ]
+sync 
+
+[ IF ,} ]
+sync 
+
+[ METHOD_BODY ,$ ]
+sync 
+
+[ METHOD_BODY ,float ]
+STATEMENT_LIST 
+
+[ METHOD_BODY ,id ]
+STATEMENT_LIST 
+
+[ METHOD_BODY ,if ]
+STATEMENT_LIST 
+
+[ METHOD_BODY ,int ]
+STATEMENT_LIST 
+
+[ METHOD_BODY ,while ]
+STATEMENT_LIST 
+
+[ PRIMITIVE_TYPE ,float ]
+float 
+
+[ PRIMITIVE_TYPE ,id ]
+sync 
+
+[ PRIMITIVE_TYPE ,int ]
+int 
+
+[ SIGN ,( ]
+sync 
+
+[ SIGN ,+ ]
++ 
+
+[ SIGN ,- ]
+- 
+
+[ SIGN ,id ]
+sync 
+
+[ SIGN ,num ]
+sync 
+
+[ SIMPLE_EXPRESSION ,( ]
+TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION ,) ]
+sync 
+
+[ SIMPLE_EXPRESSION ,+ ]
+SIGN TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION ,- ]
+SIGN TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION ,; ]
+sync 
+
+[ SIMPLE_EXPRESSION ,id ]
+TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION ,num ]
+TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION ,relop ]
+sync 
+
+[ SIMPLE_EXPRESSION_dash ,) ]
+lamda 
+
+[ SIMPLE_EXPRESSION_dash ,; ]
+lamda 
+
+[ SIMPLE_EXPRESSION_dash ,addop ]
+addop TERM SIMPLE_EXPRESSION_dash 
+
+[ SIMPLE_EXPRESSION_dash ,relop ]
+lamda 
+
+[ STATEMENT ,$ ]
+sync 
+
+[ STATEMENT ,float ]
+DECLARATION 
+
+[ STATEMENT ,id ]
+ASSIGNMENT 
+
+[ STATEMENT ,if ]
+IF 
+
+[ STATEMENT ,int ]
+DECLARATION 
+
+[ STATEMENT ,while ]
+WHILE 
+
+[ STATEMENT ,} ]
+sync 
+
+[ STATEMENT_LIST ,$ ]
+sync 
+
+[ STATEMENT_LIST ,float ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST ,id ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST ,if ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST ,int ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST ,while ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST_dash ,$ ]
+lamda 
+
+[ STATEMENT_LIST_dash ,float ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST_dash ,id ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST_dash ,if ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST_dash ,int ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ STATEMENT_LIST_dash ,while ]
+STATEMENT STATEMENT_LIST_dash 
+
+[ TERM ,( ]
+FACTOR TERM_dash 
+
+[ TERM ,) ]
+sync 
+
+[ TERM ,; ]
+sync 
+
+[ TERM ,addop ]
+sync 
+
+[ TERM ,id ]
+FACTOR TERM_dash 
+
+[ TERM ,num ]
+FACTOR TERM_dash 
+
+[ TERM ,relop ]
+sync 
+
+[ TERM_dash ,) ]
+lamda 
+
+[ TERM_dash ,; ]
+lamda 
+
+[ TERM_dash ,addop ]
+lamda 
+
+[ TERM_dash ,mulop ]
+mulop FACTOR TERM_dash 
+
+[ TERM_dash ,relop ]
+lamda 
+
+[ WHILE ,$ ]
+sync 
+
+[ WHILE ,float ]
+sync 
+
+[ WHILE ,id ]
+sync 
+
+[ WHILE ,if ]
+sync 
+
+[ WHILE ,int ]
+sync 
+
+[ WHILE ,while ]
+while ( EXPRESSION ) { STATEMENT } 
+
+[ WHILE ,} ]
+sync 
+
